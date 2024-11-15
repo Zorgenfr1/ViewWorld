@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+.login{
+    margin: 150px 0px 0px 400px;
+    border: 1px solid #898989;
+    padding: 15px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+label, input{
+    font-size: 25px;
+
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #898989;
+}
+
+em{
+    color: rgb(168, 0, 0);
+}
+
+a{
+    color: rgb(168, 0, 0);
+}

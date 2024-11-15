@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+}
+.welcome{
+    margin-top: 120px;
+    margin-left: 260px;
+}
+.home{
+    margin-left: 260px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+.post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.profile-pic {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular profile picture */
+    margin-right: 10px;
+    vertical-align: middle; /* Align with text */
+    object-fit: cover;
+}
+.userid{
+    display: inline-block;
+    color: rgb(0, 94, 255);
+    font-size: 20px;
+}
+.userid a{
+    color: rgb(0, 94, 255);
+    font-style: none;
+    text-decoration: none;
+}
+.post-pic {
+    width: 100%; /* Full width for post image */
+    height: 300px; /* Maintain aspect ratio */
+    object-fit: cover;
+    margin: 10px 0;
+}
+.info {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+}
+.ui-logo {
+    width: 25px; /* Adjust size of icons */
+    height: 25px; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align with text */
+    margin-right: 5px;
+}

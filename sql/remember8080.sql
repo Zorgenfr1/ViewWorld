@@ -1,0 +1,10 @@
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/madsbas.jpg' WHERE userid = '@madsbas';
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/view.jpg' WHERE userid = '@view';
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/johndoe.jpg' WHERE userid = '@john_doe';
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/janesmith.jpg' WHERE userid = '@jane_smith';
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/cowboydan.jpg' WHERE userid = '@cowboydan';
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/techguy.jpg' WHERE userid = '@techguy';
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/foodiequeen.jpg' WHERE userid = '@foodiequeen';
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/traveler99.jpg' WHERE userid = '@traveler99';
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/fitnessfanatic.jpg' WHERE userid = '@fitness_fanatic';
+UPDATE users SET profile_pic = 'http://localhost:8080/ViewWorld/images/bookworm.jpg' WHERE userid = '@bookworm';

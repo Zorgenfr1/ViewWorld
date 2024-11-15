@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.create{
+    margin-top: 110px;
+    margin-left: 260px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+input[type="file"] + label{
+    display: block;
+    background-color: rgb(180, 180, 180);
+    border-radius: 5px;
+    height: 250px;
+    width: 620px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(80, 80, 80);
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-size: large;
+    transition: opacity 0.4s;
+}
+
+input[type="file"] + label:hover{
+    cursor: pointer;
+    border-width: 3px;
+    height: 246px;
+    width: 616px;
+    border-color: black;
+    opacity: 0.8;
+}
+
+input[type="file"] + label:active{
+    opacity: 0.6;
+}
+
+label img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 40px auto 0 auto;
+}
+
+textarea{
+    display: block;
+    width: 397px;
+    height: 170px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-left: 15px;
+    margin-right: 20px;
+    text-align: left;
+    resize: none;
+}
+
+.textarea-submit{
+    display: flex;
+    align-items: flex-start; /* Aligns items at the top */
+}
+
+.submit-button{
+    width: 200px;
+    height: 170px;
+    align-items: center;
+    font-size: 27px;
+    border-radius: 5px;
+    border-width: 1px;
+    transition: opacity 0.5s;
+}
+
+.logo-submit{
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.submit-button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
